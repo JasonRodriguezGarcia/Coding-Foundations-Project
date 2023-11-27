@@ -1,0 +1,9 @@
+/*helper, esto crea un espacio en blanco a ser llamado cuando queramos*/
+.spacer30 {
+    height: 30px;
+    width: 100%;
+}
+.spacer90 {
+    height: 90px;
+    width: 100%;
+}

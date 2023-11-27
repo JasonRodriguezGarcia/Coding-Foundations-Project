@@ -1,0 +1,141 @@
+.main-page > .main-column {
+    background-color: hsl(225deg 9.52% 8.24%); /*color 17*/
+}
+    .main-page > .main-column > .search-bar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between; /* en eje horizontal */
+        padding: 10px;
+        border-radius: 4px;
+        border: 3px solid transparent;
+        width: 1175px;
+    }
+        .main-page > .main-column > .search-bar > .searchtext {
+            display: flex;
+            height: 3rem;
+            align-items: center;
+            justify-items: center;
+            background-color:hsl(232.5deg 11.76% 13.33%); /*color 16*/
+            color: #898d94;
+            border-radius: 4px;
+            padding: 10px;
+            height: 44px;
+            font-size: 1.3rem;
+            gap: 5px;
+        }
+        .main-page > .main-column > .search-bar > .searchtext input {
+            width: 960px;
+            background-color:hsl(232.5deg 11.76% 13.33%); /*color 16*/
+            border: none;
+            color:#898d94; /* color del cursor */
+            padding: 7px 8px 7px 8px;
+            font-weight: 900;
+            font-size: 1.3rem;
+        } 
+        .main-page > .main-column > .search-bar > .searchtext > .linesearch {
+            display: flex;
+            padding-left: 10px;
+            transition: 0.1s;
+        }  
+        .main-page > .main-column > .search-bar > .signup > .signupbutton {
+            background-color: hsl(139.41deg 58.62% 54.51%);
+            border: 3px solid hsl(139.41deg 58.62% 54.51%);
+            color: black;
+            padding: 7px 3px!important;
+            border-radius: 4px;
+            font-size: 1.0rem;
+        }
+            .main-page > .main-column > .search-bar > .signup button:hover {
+                background-color: hsl(139.62deg 59.09% 34.51%);
+                border: 3px solid hsl(139.62deg 59.09% 34.51%);
+                color: white;
+            }
+        .main-page > .main-column > .search-bar > .login > .loginbutton {
+            background-color: hsl(227.37deg 12.26% 30.39%);
+            border: 3px solid hsl(227.37deg 12.26% 30.39%);
+            color: white;
+            outline: none;
+            padding: 7px 3px!important;
+            border-radius: 4px;
+            font-size: 1.0rem;
+        }
+            .main-page > .main-column > .search-bar > .login button:hover {
+            background-color: hsl(226.67deg 11.84% 70.2%);
+            border: 3px solid hsl(226.67deg 11.84% 70.2%);
+            color: white;
+            }
+
+    .main-page > .main-column > .variousbuttoncontainer > .line1 {
+        display: flex;
+        border-top: 4px solid hsl(196.2deg 100% 73.14%);
+        padding: 10px 10px 0px 10px;
+        margin: 0 0 0 1px;
+    }
+        .yourworktext > .yourwork, .penstxt > .pens, .projectstxt > .projects, .collectionstxt > .collections {
+            display: flex;
+            flex-direction: row;
+            align-items: center; /* vertical */
+            margin: 0 10px 0 0;
+            color: hsl(226.67deg 11.84% 70.2%);
+            background-color:hsl(232.5deg 11.76% 13.33%); /*color 16*/
+            gap: 5px;
+        }
+        .main-page > .main-column > .variousbuttoncontainer > .line1 button {
+            font-size: 1rem;
+            border: 0px;
+            display: flex;
+            text-align: center;
+            border-radius: 4px;
+            padding: 11px;
+        }
+        .main-page > .main-column > .variousbuttoncontainer > .line1 button:hover{ /*pseudo-estado cuando pase ratón por encima*/
+            background-color: hsl(227.37deg 12.26% 30.39%);
+        }
+    .main-page > .main-column > .variousbuttoncontainer > .line2 {
+        display: flex;
+        padding: 10px 10px 0 10px;
+        height: 50px;
+    }
+    .main-page > .main-column > .variousbuttoncontainer > .line2 label {
+        color: hsl(226.67deg 11.84% 70.2%);
+        margin: 0 8px 0 0;
+    }
+        .sortbyitem button {
+            display: block;
+            padding: 0 28px 0 8px;
+        }
+
+        .sortbyitem , .searchdepitem, .includeforksitem {
+            border: 0px;
+            display: flex;
+            text-align: center;
+            align-items: center;
+            gap: 10px; /*espacio entre ellos*/
+            padding: 0 11px 0 11px;
+            font-size: 12px;
+            background-color:hsl(232.5deg 11.76% 13.33%); /*color 16*/
+        }
+    .main-page > .main-column > .variousbuttoncontainer .line3 { /* NO CONSIGO CENTRAR BIEN EL ITEM*/
+        display: flex;                                          /* TENGO QUE PONER UN MARGEN IZQUIERDO*/
+        background-color: hsl(222.86deg 13.73% 20%);          /* PARA DISIMULARLO, LO CENTRA MAL*/
+        border-radius: 6px;                                     /* CREO QUE POR UN TEMA DE POSICION ABSOLUTA*/
+        width: 1033px;                                          /* O RELATIVA, CREO QUE REALMENTE ESTÁ CENTRADO */
+        height: 62px;                                           /* RESPECTO A LA PANTALLA */
+        align-items: center;                                    /* I CAN'T CENTER THE ITEM, I HAD LEFT WITH LEFT-MARGIN*/
+        justify-content: center;                                /* I BELIEVE IT'S WRONG CENTERED, IT MAY BE A ABSOLUTE*/
+        margin-left: 40px;                                      /* OR RELATIVE POSITION ISSUE, I THINK IT'S ALREADY*/
+    }                                                           /* CENTERED BUT WITH ALL THE SCREEN WIDTH*/
+    .main-page > .main-column > .variousbuttoncontainer > .footcontainer {
+        width: 100%;
+        background-color: black;
+        padding: 40px 0 0 40px; /* OJO el padding mantiene el color de fondo del item actual, el margen NO!! */
+    }
+    .main-page > .main-column > .variousbuttoncontainer > .footcontainer span{
+        font-size: 15px;
+        margin-right: 16px;
+    }
+
+    .main-page > .main-column > .variousbuttoncontainer > .footcontainer a {
+        color: hsl(226.67deg 11.84% 70.2%);
+        margin-right: 8px;
+    }

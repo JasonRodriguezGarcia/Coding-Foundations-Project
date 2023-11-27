@@ -1,0 +1,49 @@
+
+.main-page > .left-column {
+    background-color:hsl(232.5deg 11.76% 13.33%); /*color 16*/
+    font-size: 1.1rem;
+    display: flex;
+    flex-direction: column; /*justify=horizontal, align=vertical */
+    padding: 11px 11px 11px 11px;
+}
+    .main-page > .left-column img {
+        height: 30px;
+        width: 160px;
+    }
+
+    .main-page > .left-column > .imagen2 img {
+        height: 100px;
+        width: 160px;
+        margin: 10px 15px 10px 0px;
+        padding: 0 20px;
+    }
+    .main-page > .left-column > .small-text-line {
+        font-size: 9px;
+        margin: 11px 11px 0px 0px;
+        color: hsl(226.67deg 11.84% 70.2%);
+    }
+    .main-page > .left-column > .startcoding > .startcodingbutton {
+        display: flex;
+        align-items: center; /*alineamiento vertical*/
+        justify-content: center;  /*alinea el texto de dentro del boton*/
+        font-size: 16px;
+        background: black;
+        border-radius: 5px;
+        height: 100%;
+        border: 3px solid rgb(0, 255, 191);
+        padding: 13px 0 13px 0;
+        width: 132px;
+        height: 51px;
+        margin: 0 0 20px 0;
+    }
+    .main-page > .left-column > .left-column-restlines a {
+        display: flex;
+        align-items: center; /*esto es para centrar verticalmente el texto PRO*/
+        padding: 11px 20px 11px 0px;
+        color: white;
+        transition: 0.4s;
+    }
+
+    .main-page > .left-column > .left-column-restlines a:hover {
+        background-color: hsl(225deg 9.52% 8.24%); /*color 17*/
+    }
